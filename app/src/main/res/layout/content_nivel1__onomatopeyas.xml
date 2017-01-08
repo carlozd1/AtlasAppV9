@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carlos.atlasapp.Nivel1.Nivel1_Onomatopeyas"
+    tools:showIn="@layout/activity_nivel1__onomatopeyas"
+    android:background="@drawable/granja">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Pollo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pollo"
+        android:focusable="false"
+        android:clickable="false" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/obtn_Atras"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/atras" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/obtn_Adelante"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/adelante" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Cerdo"
+        android:background="@drawable/cerdito"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Tigre"
+        android:layout_alignTop="@+id/obtn_Adelante"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Abeja"
+        android:background="@drawable/abeja"
+        android:layout_alignTop="@+id/obtn_Pollo"
+        android:layout_alignRight="@+id/obtn_Pollo"
+        android:layout_alignEnd="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Gallina"
+        android:background="@drawable/gallina"
+        android:layout_alignBottom="@+id/obtn_Abeja"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Gallo"
+        android:background="@drawable/gallina"
+        android:layout_alignTop="@+id/obtn_Pollo"
+        android:layout_alignLeft="@+id/obtn_Pollo"
+        android:layout_alignStart="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Perro"
+        android:background="@drawable/perro"
+        android:layout_alignTop="@+id/obtn_Cerdo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Gato"
+        android:background="@drawable/gato"
+        android:layout_alignBottom="@+id/obtn_Cerdo"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Lobo"
+        android:background="@drawable/perro"
+        android:layout_alignBottom="@+id/obtn_Pollo"
+        android:layout_alignRight="@+id/obtn_Pollo"
+        android:layout_alignEnd="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Vaca"
+        android:background="@drawable/caballo"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/obtn_Perro"
+        android:layout_alignStart="@+id/obtn_Perro" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Oveja"
+        android:background="@drawable/oveja"
+        android:layout_alignTop="@+id/obtn_Cerdo"
+        android:layout_alignRight="@+id/obtn_Vaca"
+        android:layout_alignEnd="@+id/obtn_Vaca" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Elefante"
+        android:background="@drawable/pollo"
+        android:layout_alignBottom="@+id/obtn_Gato"
+        android:layout_alignRight="@+id/obtn_Gato"
+        android:layout_alignEnd="@+id/obtn_Gato" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Caballo"
+        android:background="@drawable/caballo"
+        android:layout_alignTop="@+id/obtn_Pollo"
+        android:layout_alignRight="@+id/obtn_Perro"
+        android:layout_alignEnd="@+id/obtn_Perro" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Pato"
+        android:background="@drawable/pato"
+        android:layout_alignBottom="@+id/obtn_Gallo"
+        android:layout_alignLeft="@+id/obtn_Elefante"
+        android:layout_alignStart="@+id/obtn_Elefante" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_TocarPuerta"
+        android:background="@drawable/tocarpuerta"
+        android:layout_alignTop="@+id/obtn_Gato"
+        android:layout_alignRight="@+id/obtn_Pato"
+        android:layout_alignEnd="@+id/obtn_Pato" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_Silencio"
+        android:background="@drawable/silencio"
+        android:layout_alignTop="@+id/obtn_Cerdo"
+        android:layout_alignLeft="@+id/obtn_Pollo"
+        android:layout_alignStart="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_Comer"
+        android:background="@drawable/comer"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/obtn_Gallina"
+        android:layout_alignEnd="@+id/obtn_Gallina" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_Cantar"
+        android:background="@drawable/cantar"
+        android:layout_alignTop="@+id/obtn_Pollo"
+        android:layout_alignLeft="@+id/obtn_Pollo"
+        android:layout_alignStart="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_Besar"
+        android:background="@drawable/beso"
+        android:layout_alignTop="@+id/obtn_Bostezar"
+        android:layout_alignLeft="@+id/obtn_Pollo"
+        android:layout_alignStart="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_Bostezar"
+        android:background="@drawable/bostezo"
+        android:layout_alignBottom="@+id/obtn_Gato"
+        android:layout_alignLeft="@+id/obtn_Pollo"
+        android:layout_alignStart="@+id/obtn_Pollo" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:id="@+id/obtn_HablarAlguien"
+        android:background="@drawable/ehh"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/obtn_Pato"
+        android:layout_alignEnd="@+id/obtn_Pato" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Dormir"
+        android:background="@drawable/dormir"
+        android:layout_alignTop="@+id/obtn_Pollo"
+        android:layout_alignRight="@+id/obtn_Perro"
+        android:layout_alignEnd="@+id/obtn_Perro" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Aplaudir"
+        android:background="@drawable/aplaudir"
+        android:layout_alignBottom="@+id/obtn_Gato"
+        android:layout_alignLeft="@+id/obtn_Oveja"
+        android:layout_alignStart="@+id/obtn_Oveja" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Reloj"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/reloj" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Campana"
+        android:background="@drawable/campanas"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Telefono"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pollo" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Tren"
+        android:background="@drawable/tren"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Bicicleta"
+        android:background="@drawable/bicicleta"
+        android:layout_alignBottom="@+id/obtn_Tren"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Motocicleta"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/moto" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Carro"
+        android:background="@drawable/carro"
+        android:layout_alignTop="@+id/obtn_Motocicleta"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Barco"
+        android:background="@drawable/barco"
+        android:layout_alignBottom="@+id/obtn_Carro"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Tambor"
+        android:background="@drawable/tambor"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/obtn_Trompeta"
+        android:background="@drawable/trompeta"
+        android:layout_alignBottom="@+id/obtn_Tambor"
+        android:layout_alignLeft="@+id/obtn_Tambor"
+        android:layout_alignStart="@+id/obtn_Tambor" />
+
+</RelativeLayout>

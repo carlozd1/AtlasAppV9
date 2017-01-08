@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_acciones.F7Acciones_Bostezar">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_bostezar_te"
+        android:background="@drawable/ac_te"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_bostezar_bos"
+        android:layout_toEndOf="@+id/btn_bostezar_bos" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_bostezar_bos"
+        android:background="@drawable/ac_bos"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Bostezar"
+        android:layout_alignStart="@+id/obtn_Bostezar" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_bostezar_zar"
+        android:background="@drawable/ac_zar"
+        android:layout_width="140dp"
+        android:layout_alignTop="@+id/btn_bostezar_te"
+        android:layout_toRightOf="@+id/btn_bostezar_te"
+        android:layout_toEndOf="@+id/btn_bostezar_te" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Bostezar"
+        android:background="@drawable/bostezo"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/btn_bostezar_te"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

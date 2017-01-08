@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F2Animal_Cerdo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_cerdo_cer"
+        android:background="@drawable/sicer"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Cerdo"
+        android:layout_alignStart="@+id/obtn_Cerdo"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_cerdo_do"
+        android:background="@drawable/sido"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_cerdo_cer"
+        android:layout_toEndOf="@+id/btn_cerdo_cer" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Cerdo"
+        android:background="@drawable/cerdito"
+        android:layout_above="@+id/btn_cerdo_cer"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

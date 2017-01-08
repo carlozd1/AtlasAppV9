@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel1.N1F_Todo">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel1.N1F_Animales"
+                android:id="@+id/fragmentanimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/fragment_n1_f__animales" />
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel1.N1F_Acciones"
+                android:id="@+id/fragmentaccion"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/fragment_n1_f__acciones" />
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel1.N1F_Objetoos"
+                android:id="@+id/fragmentobj"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/fragment_n1_f__objetoos" />
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel1.N1F_Transporte"
+                android:id="@+id/fragmenttransporte"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/fragment_n1_f__transporte" />
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel1.N1F_Instrumentos"
+                android:id="@+id/fragmentinst"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/fragment_n1_f__instrumentos" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

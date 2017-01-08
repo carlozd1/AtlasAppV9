@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel2.nivel2_terapia">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <VideoView
+        android:layout_width="507dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/videoView" />
+
+    <SurfaceView
+        android:layout_width="507dp"
+        android:layout_height="match_parent"
+        android:id="@+id/surfaceView"
+        android:layout_gravity="right"/>
+</FrameLayout>

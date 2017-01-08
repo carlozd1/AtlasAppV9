@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel1.N1F_Instrumentos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="INSTRUMENTOS"
+        android:id="@+id/txtViewInstrumentos"
+        android:layout_marginTop="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="93dp"
+        android:layout_marginStart="93dp" />
+
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Tambor"
+        android:id="@+id/btnTambor"
+        android:drawableLeft="@drawable/btambor"
+        android:layout_below="@+id/txtViewInstrumentos"
+        android:layout_alignLeft="@+id/txtViewInstrumentos"
+        android:layout_alignStart="@+id/txtViewInstrumentos" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Trompeta"
+        android:id="@+id/btnTrompeta"
+        android:drawableLeft="@drawable/btrompeta"
+        android:layout_below="@+id/txtViewInstrumentos"
+        android:layout_toRightOf="@+id/btnTambor"
+        android:layout_toEndOf="@+id/btnTambor" />
+
+
+</RelativeLayout>

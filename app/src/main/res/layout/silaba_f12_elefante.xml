@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F12Animal_Elefante">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_elefante_le"
+        android:background="@drawable/sile"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_elefante_e"
+        android:layout_toEndOf="@+id/btn_elefante_e" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_elefante_fan"
+        android:background="@drawable/sifan"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_elefante_le"
+        android:layout_toEndOf="@+id/btn_elefante_le" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_elefante_te"
+        android:background="@drawable/site"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_elefante_fan"
+        android:layout_toEndOf="@+id/btn_elefante_fan" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Elefante"
+        android:background="@drawable/elefante"
+        android:layout_above="@+id/btn_elefante_le"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_elefante_e"
+        android:background="@drawable/sie"
+        android:layout_width="140dp"
+        android:layout_marginLeft="203dp"
+        android:layout_marginStart="203dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

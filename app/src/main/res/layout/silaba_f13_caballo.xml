@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F13Animal_Caballo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_caballo_ba"
+        android:background="@drawable/siba"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_caballo_ca"
+        android:layout_toEndOf="@+id/btn_caballo_ca" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_caballo_ca"
+        android:background="@drawable/sica"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Caballo"
+        android:layout_alignStart="@+id/obtn_Caballo" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_caballo_llo"
+        android:background="@drawable/sillo"
+        android:layout_width="140dp"
+        android:layout_alignTop="@+id/btn_caballo_ba"
+        android:layout_toRightOf="@+id/btn_caballo_ba"
+        android:layout_toEndOf="@+id/btn_caballo_ba" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Caballo"
+        android:background="@drawable/caballo"
+        android:layout_above="@+id/btn_caballo_ba"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

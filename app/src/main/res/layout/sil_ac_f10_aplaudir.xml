@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_acciones.F10Acciones_Aplaudir">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_aplaudir_plau"
+        android:background="@drawable/ac_plau"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_aplaudir_a"
+        android:layout_toEndOf="@+id/btn_aplaudir_a" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_aplaudir_a"
+        android:background="@drawable/ac_a"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Aplaudir"
+        android:layout_alignStart="@+id/obtn_Aplaudir" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_aplaudir_dir"
+        android:background="@drawable/ac_dir"
+        android:layout_width="140dp"
+        android:layout_alignTop="@+id/btn_aplaudir_plau"
+        android:layout_toRightOf="@+id/btn_aplaudir_plau"
+        android:layout_toEndOf="@+id/btn_aplaudir_plau" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Aplaudir"
+        android:background="@drawable/aplaudir"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/btn_aplaudir_plau"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

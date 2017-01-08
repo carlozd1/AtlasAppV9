@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_objetos.F3Objetos_Telefono">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_telefono_fo"
+        android:background="@drawable/ac_fo"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_telefono_le"
+        android:layout_toEndOf="@+id/btn_telefono_le" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_telefono_no"
+        android:background="@drawable/ac_no"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_telefono_fo"
+        android:layout_toEndOf="@+id/btn_telefono_fo" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_telefono_le"
+        android:background="@drawable/ac_le"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_telefono_te"
+        android:layout_toEndOf="@+id/btn_telefono_te" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_telefono_te"
+        android:background="@drawable/ac_te"
+        android:layout_width="140dp"
+        android:layout_marginLeft="186dp"
+        android:layout_marginStart="186dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Telefono"
+        android:background="@drawable/btelefono"
+        android:layout_above="@+id/btn_telefono_fo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp" />
+
+</RelativeLayout>

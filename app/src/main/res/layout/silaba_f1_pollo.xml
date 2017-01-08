@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F1Animal_Pollo">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageButton
+        android:id="@+id/obtn_Pollo"
+        android:background="@drawable/pollo"
+        android:layout_above="@+id/btn_pollo_po"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="300dp" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_pollo_llo"
+        android:background="@drawable/sillo"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Pollo"
+        android:layout_alignStart="@+id/obtn_Pollo"
+        android:layout_marginLeft="94dp"
+        android:layout_marginStart="94dp" />
+
+    <ImageButton
+    android:layout_height="150dp"
+    android:id="@+id/btn_pollo_po"
+    android:background="@drawable/sipo"
+        android:layout_width="140dp"
+        android:layout_marginRight="114dp"
+        android:layout_marginEnd="114dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/obtn_Pollo"
+        android:layout_alignEnd="@+id/obtn_Pollo" />
+
+
+</RelativeLayout>

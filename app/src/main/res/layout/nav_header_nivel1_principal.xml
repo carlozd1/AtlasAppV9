@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="#000000"
+    android:gravity="bottom"
+    android:orientation="vertical"
+
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="112dp"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:src="@drawable/logo_contorno"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="68dp"
+        android:layout_weight="0.21" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/txtlevel"
+        android:text="Nivel"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:id="@+id/txtnivel"
+        android:text="Onomatopeyas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

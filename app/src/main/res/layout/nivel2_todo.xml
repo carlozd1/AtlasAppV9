@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel2.nivel2_todo">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel2.nivel2_botones1_fonemas"
+                android:id="@+id/fragmentanimal"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/nivel2_botones1_fonemas" />
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:name="com.example.carlos.atlasapp.Nivel2.nivel2_botones2_fonemas"
+                android:id="@+id/fragmentaccion"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                tools:layout="@layout/nivel2_botones2_fonemas" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

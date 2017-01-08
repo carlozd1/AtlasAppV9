@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F7Animal_Perro">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_perro_pe"
+        android:background="@drawable/sipe"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Perro"
+        android:layout_alignStart="@+id/obtn_Perro"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_perro_rro"
+        android:background="@drawable/sirro"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_perro_pe"
+        android:layout_toEndOf="@+id/btn_perro_pe" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Perro"
+        android:background="@drawable/perro"
+        android:layout_above="@+id/btn_perro_pe"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

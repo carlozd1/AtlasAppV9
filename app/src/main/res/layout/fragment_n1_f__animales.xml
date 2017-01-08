@@ -1,0 +1,161 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel1.N1F_Animales">
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Pollo"
+            android:id="@+id/btnPollo"
+            android:drawableLeft="@drawable/b_gallina"
+        android:layout_marginLeft="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Cerdo"
+            android:id="@+id/btnCerdo"
+            android:drawableLeft="@drawable/b_cerdo"
+            android:layout_alignTop="@+id/btnPollo"
+            android:layout_toRightOf="@+id/btnPollo"
+            android:layout_toEndOf="@+id/btnPollo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Tigre"
+            android:id="@+id/btnTigre"
+            android:drawableLeft="@drawable/b_tigre"
+            android:layout_alignTop="@+id/btnCerdo"
+            android:layout_toRightOf="@+id/btnCerdo"
+            android:layout_toEndOf="@+id/btnCerdo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Abeja"
+            android:id="@+id/btnAbeja"
+            android:drawableLeft="@drawable/b_abeja"
+            android:layout_alignTop="@+id/btnTigre"
+            android:layout_toRightOf="@+id/btnTigre"
+            android:layout_toEndOf="@+id/btnTigre" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Gallina"
+            android:id="@+id/btnGallina"
+            android:drawableLeft="@drawable/b_gallina"
+            android:layout_below="@+id/btnPollo"
+            android:layout_alignLeft="@+id/btnPollo"
+            android:layout_alignStart="@+id/btnPollo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Gallo"
+            android:id="@+id/btnGallo"
+            android:drawableLeft="@drawable/b_gallo"
+            android:layout_below="@+id/btnPollo"
+            android:layout_toRightOf="@+id/btnPollo"
+            android:layout_toEndOf="@+id/btnPollo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Perro"
+            android:id="@+id/btnPerro"
+            android:drawableLeft="@drawable/b_perro"
+            android:layout_above="@+id/btnVaca"
+            android:layout_toRightOf="@+id/btnGallo"
+            android:layout_toEndOf="@+id/btnGallo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Gato"
+            android:id="@+id/btnGato"
+            android:drawableLeft="@drawable/b_gato"
+            android:layout_below="@+id/btnTigre"
+            android:layout_toRightOf="@+id/btnTigre"
+            android:layout_toEndOf="@+id/btnTigre" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Lobo"
+            android:id="@+id/btnLobo"
+            android:drawableLeft="@drawable/b_lobo"
+            android:layout_below="@+id/btnGallina"
+            android:layout_alignLeft="@+id/btnGallina"
+            android:layout_alignStart="@+id/btnGallina" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Vaca"
+            android:id="@+id/btnVaca"
+            android:drawableLeft="@drawable/b_vaca"
+            android:layout_alignTop="@+id/btnLobo"
+            android:layout_toRightOf="@+id/btnLobo"
+            android:layout_toEndOf="@+id/btnLobo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Borrego"
+            android:id="@+id/btnBorrego"
+            android:drawableLeft="@drawable/b_oveja"
+            android:layout_alignTop="@+id/btnVaca"
+            android:layout_toRightOf="@+id/btnVaca"
+            android:layout_toEndOf="@+id/btnVaca" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Caballo"
+            android:id="@+id/btnCaballo"
+            android:drawableLeft="@drawable/b_caballo"
+            android:layout_below="@+id/btnLobo"
+            android:layout_alignLeft="@+id/btnLobo"
+            android:layout_alignStart="@+id/btnLobo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Pato"
+            android:id="@+id/btnPato"
+            android:drawableLeft="@drawable/b_pato"
+            android:layout_alignTop="@+id/btnCaballo"
+            android:layout_toRightOf="@+id/btnCaballo"
+            android:layout_toEndOf="@+id/btnCaballo" />
+
+        <Button
+            android:layout_width="175dp"
+            android:layout_height="75dp"
+            android:text="Elefante"
+            android:id="@+id/btnElefante"
+            android:drawableLeft="@drawable/b_elefante"
+            android:layout_above="@+id/btnPato"
+            android:layout_toRightOf="@+id/btnBorrego"
+            android:layout_toEndOf="@+id/btnBorrego" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Rana"
+        android:id="@+id/btnRana"
+        android:drawableLeft="@drawable/b_rana"
+        android:layout_alignTop="@+id/btnPato"
+        android:layout_toRightOf="@+id/btnPato"
+        android:layout_toEndOf="@+id/btnPato" />
+</RelativeLayout>

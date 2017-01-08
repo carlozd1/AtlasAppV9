@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel2.nivel2_botones2_fonemas">
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="M"
+        android:textSize="48dp"
+        android:id="@+id/textView4"
+        android:padding="10dp"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Mesa"
+        android:id="@+id/btnMesa"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Moto"
+        android:id="@+id/btnMoto"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnMesa"
+        android:layout_toEndOf="@+id/btnMesa" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Mochila"
+        android:id="@+id/btnMochila"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btnMoto"
+        android:layout_toEndOf="@+id/btnMoto" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="P"
+        android:textSize="48dp"
+        android:id="@+id/textView5"
+        android:padding="10dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Pala"
+        android:id="@+id/btnPala"
+        android:layout_below="@+id/textView4"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Peine"
+        android:id="@+id/btnPeine"
+        android:layout_alignBottom="@+id/btnBarco"
+        android:layout_toRightOf="@+id/btnMesa"
+        android:layout_toEndOf="@+id/btnMesa"
+        android:layout_below="@+id/btnMesa" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="R"
+        android:textSize="48dp"
+        android:id="@+id/textView6"
+        android:padding="10dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Radio"
+        android:id="@+id/btnRadio"
+        android:layout_below="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Reloj"
+        android:id="@+id/btnReloj"
+        android:layout_below="@+id/btnPeine"
+        android:layout_toRightOf="@+id/btnRadio"
+        android:layout_toEndOf="@+id/btnRadio" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="S"
+        android:textSize="48dp"
+        android:id="@+id/textView7"
+        android:padding="10dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="T"
+        android:textSize="48dp"
+        android:id="@+id/textView8"
+        android:padding="10dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:text="V"
+        android:textSize="48dp"
+        android:id="@+id/textView9"
+        android:padding="10dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Sombrero"
+        android:id="@+id/btnSombrero"
+        android:layout_below="@+id/textView6"
+        android:layout_toRightOf="@+id/textView6"
+        android:layout_toEndOf="@+id/textView6" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Perro"
+        android:id="@+id/btnPerro"
+        android:layout_below="@+id/btnMochila"
+        android:layout_toRightOf="@+id/btnPeine"
+        android:layout_toEndOf="@+id/btnPeine" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Refri"
+        android:id="@+id/btnRefri"
+        android:layout_below="@+id/btnPerro"
+        android:layout_toRightOf="@+id/btnReloj"
+        android:layout_toEndOf="@+id/btnReloj" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Sal"
+        android:id="@+id/btnSal"
+        android:layout_below="@+id/btnReloj"
+        android:layout_toRightOf="@+id/btnRadio"
+        android:layout_toEndOf="@+id/btnRadio" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Tenedor"
+        android:id="@+id/btnTenedor"
+        android:layout_below="@+id/textView7"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Sarten"
+        android:id="@+id/btnSarten"
+        android:layout_below="@+id/btnRefri"
+        android:layout_toRightOf="@+id/btnReloj"
+        android:layout_toEndOf="@+id/btnReloj" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Taza"
+        android:id="@+id/btnTaza"
+        android:layout_below="@+id/btnSal"
+        android:layout_toRightOf="@+id/btnSombrero"
+        android:layout_toEndOf="@+id/btnSombrero" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Tijeras"
+        android:id="@+id/btnTijeras"
+        android:layout_below="@+id/btnSarten"
+        android:layout_toRightOf="@+id/btnTaza"
+        android:layout_toEndOf="@+id/btnTaza" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Vela"
+        android:id="@+id/btnVela"
+        android:layout_below="@+id/btnTijeras"
+        android:layout_toRightOf="@+id/btnTaza"
+        android:layout_toEndOf="@+id/btnTaza" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Vaso"
+        android:id="@+id/btnVaso"
+        android:layout_below="@+id/btnTenedor"
+        android:layout_toLeftOf="@+id/btnVela"
+        android:layout_toStartOf="@+id/btnVela" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Vaca"
+        android:id="@+id/btnVaca"
+        android:layout_below="@+id/textView8"
+        android:layout_toRightOf="@+id/textView8"
+        android:layout_toEndOf="@+id/textView8" />
+
+
+</RelativeLayout>

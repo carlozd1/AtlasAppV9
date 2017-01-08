@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Perfil.Tab2">
+
+    <TextView android:id="@+id/fechaUltima"
+        android:text="10.02.2016"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/labelultimaterapia"
+        android:layout_alignBottom="@+id/labelultimaterapia"
+        android:layout_alignRight="@+id/labelultimaterapia"
+        android:layout_alignEnd="@+id/labelultimaterapia" />
+
+    <TextView android:id="@+id/palabraTotal"
+        android:text="    0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:textSize="24sp"
+        android:layout_alignBaseline="@+id/labelnivel"
+        android:layout_alignBottom="@+id/labelnivel"
+        android:layout_alignRight="@+id/labelnivel"
+        android:layout_alignEnd="@+id/labelnivel" />
+
+    <TextView android:id="@+id/labelnivel"
+        android:text="Palabras Totales:     "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:textSize="24sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/labelultimaterapia"
+        android:layout_alignStart="@+id/labelultimaterapia"
+        android:layout_marginTop="98dp" />
+
+    <TextView android:id="@+id/labelultimaterapia"
+        android:text="Ultima Terapia:                       "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:textSize="24sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/labelnivel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonProgreso"
+        android:background="@drawable/grafico"
+        android:padding="20dp"
+        android:layout_marginRight="112dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Progreso             "
+        android:textSize="24dp"
+        android:gravity="center"
+        android:layout_below="@+id/palabraTotal"
+        android:layout_alignRight="@+id/buttonProgreso"
+        android:layout_alignEnd="@+id/buttonProgreso" />
+
+</RelativeLayout>

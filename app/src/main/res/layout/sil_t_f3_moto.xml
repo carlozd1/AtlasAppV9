@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_transporte.F3Transporte_Motocicleta">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Motocicleta"
+        android:background="@drawable/moto"
+        android:layout_above="@+id/btn_moto_cle"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_moto_to"
+        android:background="@drawable/t_to"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btn_moto_ci"
+        android:layout_toStartOf="@+id/btn_moto_ci" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_moto_ci"
+        android:background="@drawable/t_ci"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_moto_mo"
+        android:background="@drawable/t_mo"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/obtn_Motocicleta"
+        android:layout_toStartOf="@+id/obtn_Motocicleta"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_moto_cle"
+        android:background="@drawable/t_cle"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_moto_ci"
+        android:layout_toEndOf="@+id/btn_moto_ci" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_bici_ta"
+        android:background="@drawable/t_ta"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_moto_cle"
+        android:layout_toEndOf="@+id/btn_moto_cle" />
+
+</RelativeLayout>

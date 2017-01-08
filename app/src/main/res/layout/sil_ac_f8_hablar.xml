@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_acciones.F6Acciones_Beso">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_hablar_blar"
+        android:background="@drawable/ac_blar"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_hablar_ha"
+        android:layout_toEndOf="@+id/btn_hablar_ha" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Hablar"
+        android:background="@drawable/ehh"
+        android:layout_above="@+id/btn_hablar_ha"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_hablar_ha"
+        android:background="@drawable/ac_ha"
+        android:layout_width="140dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginStart="78dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Hablar"
+        android:layout_alignStart="@+id/obtn_Hablar" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel1.N1F_Acciones">
+
+        <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ACCIONES"
+        android:id="@+id/txtViewInstrumentos"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="93dp"
+        android:layout_marginStart="93dp" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Tocar puerta"
+        android:id="@+id/btnTocarPuerta"
+        android:drawableLeft="@drawable/btocarpuerta"
+        android:layout_below="@+id/txtViewInstrumentos"
+        android:layout_alignLeft="@+id/txtViewInstrumentos"
+        android:layout_alignStart="@+id/txtViewInstrumentos"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Tomar Agua"
+        android:id="@+id/btnTomarAgua"
+        android:drawableLeft="@drawable/btomaragua"
+        android:layout_above="@+id/btnBeso"
+        android:layout_toRightOf="@+id/btnTocarPuerta"
+        android:layout_toEndOf="@+id/btnTocarPuerta" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Guardar silencio"
+        android:id="@+id/btnGuardarSilencio"
+        android:drawableLeft="@drawable/bsilencio"
+        android:layout_above="@+id/btnBeso"
+        android:layout_toRightOf="@+id/btnTomarAgua"
+        android:layout_toEndOf="@+id/btnTomarAgua" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Comer"
+        android:id="@+id/btnComer"
+        android:drawableLeft="@drawable/bcomer"
+        android:layout_above="@+id/btnBeso"
+        android:layout_toRightOf="@+id/btnGuardarSilencio"
+        android:layout_toEndOf="@+id/btnGuardarSilencio" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Cantar"
+        android:id="@+id/btnCantar"
+        android:drawableLeft="@drawable/bcantar"
+        android:layout_below="@+id/btnTocarPuerta"
+        android:layout_toLeftOf="@+id/btnTomarAgua"
+        android:layout_toStartOf="@+id/btnTomarAgua" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Beso"
+        android:id="@+id/btnBeso"
+        android:drawableLeft="@drawable/bbesar"
+        android:layout_alignTop="@+id/btnCantar"
+        android:layout_alignLeft="@+id/btnTomarAgua"
+        android:layout_alignStart="@+id/btnTomarAgua" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Bostezar"
+        android:id="@+id/btnBostezo"
+        android:drawableLeft="@drawable/bbostezar"
+        android:layout_alignTop="@+id/btnBeso"
+        android:layout_toRightOf="@+id/btnBeso"
+        android:layout_toEndOf="@+id/btnBeso" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Hablar a alguien"
+        android:id="@+id/btnHablarAlguien"
+        android:drawableLeft="@drawable/bhablar"
+        android:layout_alignTop="@+id/btnBeso"
+        android:layout_toRightOf="@+id/btnBostezo"
+        android:layout_toEndOf="@+id/btnBostezo" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Dormir"
+        android:id="@+id/btnDormir"
+        android:drawableLeft="@drawable/bdormir"
+        android:layout_below="@+id/btnCantar"
+        android:layout_toLeftOf="@+id/btnAplaudir"
+        android:layout_toStartOf="@+id/btnAplaudir" />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:text="Aplaudir"
+        android:id="@+id/btnAplaudir"
+        android:drawableLeft="@drawable/baplaudir"
+        android:layout_below="@+id/btnBeso"
+        android:layout_toLeftOf="@+id/btnBostezo"
+        android:layout_toStartOf="@+id/btnBostezo" />
+
+
+</RelativeLayout>

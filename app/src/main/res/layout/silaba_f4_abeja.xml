@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F4Animal_Abeja">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_abeja_be"
+        android:background="@drawable/sibe"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_abeja_a"
+        android:layout_toEndOf="@+id/btn_abeja_a" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_abeja_a"
+        android:background="@drawable/sia"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Abeja"
+        android:layout_alignStart="@+id/obtn_Abeja" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_abeja_ja"
+        android:background="@drawable/sija"
+        android:layout_width="140dp"
+        android:layout_alignTop="@+id/btn_abeja_be"
+        android:layout_toRightOf="@+id/btn_abeja_be"
+        android:layout_toEndOf="@+id/btn_abeja_be" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Abeja"
+        android:background="@drawable/abeja"
+        android:layout_above="@+id/btn_abeja_be"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

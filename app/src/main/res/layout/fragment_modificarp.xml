@@ -1,0 +1,104 @@
+   <LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:fitsSystemWindows="true"
+        android:orientation="vertical"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+       android:weightSum="1">
+
+        <!-- Name Label -->
+       <ScrollView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical" >
+
+               <android.support.design.widget.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp">
+                   <EditText android:id="@+id/input_nombrepaciente"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="textPersonName"
+                       android:hint="Nombre" />
+               </android.support.design.widget.TextInputLayout>
+
+               <android.support.design.widget.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp">
+                   <EditText android:id="@+id/input_edad"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="number"
+                       android:hint="Edad" />
+               </android.support.design.widget.TextInputLayout>
+
+               <android.support.design.widget.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp">
+                   <EditText android:id="@+id/input_apepaciente"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="textPersonName"
+                       android:hint="Apellido" />
+               </android.support.design.widget.TextInputLayout>
+
+               <android.support.design.widget.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp">
+                   <EditText android:id="@+id/input_diagnostico"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="text"
+                       android:hint="Diagnostico" />
+               </android.support.design.widget.TextInputLayout>
+
+               <android.support.design.widget.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_marginTop="8dp"
+                   android:layout_marginBottom="8dp">
+                   <EditText android:id="@+id/input_terapeuta"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:inputType="text"
+                       android:hint="Terapeuta" />
+               </android.support.design.widget.TextInputLayout>
+
+               <android.support.v7.widget.AppCompatButton
+                   android:id="@+id/btn_modificarP"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="24dp"
+                   android:layout_marginBottom="24dp"
+                   android:padding="12dp"
+                   android:text="Modificar"
+                   android:layout_weight="0.55" />
+           </LinearLayout>
+       </ScrollView>
+
+       <!-- Address Label -->
+
+
+       <!--  Email Label -->
+
+
+       <!-- mobile number -->
+
+       <!-- Signup Button -->
+
+   </LinearLayout>

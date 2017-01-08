@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_fragments.F3Animal_Tigre">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_tigre_ti"
+        android:background="@drawable/siti"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Tigre"
+        android:layout_alignStart="@+id/obtn_Tigre"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_tigre_gre"
+        android:background="@drawable/sigre"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_tigre_ti"
+        android:layout_toEndOf="@+id/btn_tigre_ti" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Tigre"
+        android:background="@drawable/tigre"
+        android:layout_above="@+id/btn_tigre_ti"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

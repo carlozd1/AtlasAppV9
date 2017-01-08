@@ -1,0 +1,257 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel2.nivel2_diagnostico">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Selecciona los fonemas que el paciente dice correctamente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textSize="18sp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="270dp"
+                android:layout_height="match_parent"
+
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Abrigo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbA1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Barco"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbB1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Peine"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbP1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Làpiz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbL1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center"
+                        android:padding="8dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Cama"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbC1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Escoba"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbE1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Gallina"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbG1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Jabòn"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbJ1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Mesa"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbM1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Sombrero"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbS1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Tenedor"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbT1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Vaca"
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbV1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <CheckBox
+                        android:text="Radio"
+                        android:padding="8dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cbR1"
+                        android:layout_weight="1"
+                        android:textSize="24sp"
+                        android:textAlignment="center"
+                        android:textColorLink="@color/colorFonema1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

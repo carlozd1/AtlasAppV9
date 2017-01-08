@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.carlos.atlasapp.Perfil.Tab3">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/nivel1t"
+                android:id="@+id/onomatopeya"
+                android:scaleType="fitXY"
+                android:layout_width="250dp" />
+
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nivel2t"
+                android:id="@+id/fonema"
+                android:scaleType="fitXY"
+                android:layout_width="250dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nivel3t"
+                android:id="@+id/silaba"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="250dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nivel4t"
+                android:id="@+id/palabra"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="250dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nivel5t"
+                android:id="@+id/frase"
+                android:layout_weight="8.39"
+                android:scaleType="fitXY"
+                android:layout_width="250dp" />
+
+            <ImageButton
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/nivel6t"
+                android:id="@+id/conversacion"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_width="250dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</FrameLayout>

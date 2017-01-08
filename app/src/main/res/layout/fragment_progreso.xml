@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Progreso.FragmentProgreso"
+    android:id="@+id/f_progreso">
+
+    <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_porciento"
+            android:layout_centerInParent="true"
+            android:textSize="60sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/labelultimaterapia"
+            android:text="Total aprobadas:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="10"
+            android:textSize="24sp"/>
+
+        <TextView android:id="@+id/labelnivel"
+            android:text="Faltan:     "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textSize="24sp"
+            android:layout_marginRight="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <com.hookedonplay.decoviewlib.DecoView
+            android:layout_width="match_parent"
+            android:id="@+id/dynamicArcView"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView android:id="@+id/numeroTotalAprobado"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/labelultimaterapia"
+            android:layout_toEndOf="@+id/labelultimaterapia" />
+
+        <TextView android:id="@+id/numeroTotalFaltante"
+            android:text="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textSize="24sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/labelnivel"
+            android:layout_alignEnd="@+id/labelnivel" />
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,268 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.carlos.atlasapp.Nav.NavInicio">
+
+    <TabHost android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2">
+
+            <TextView android:id="@+id/nombrePaciente"
+                android:text="Nombre"
+                android:layout_height="wrap_content"
+                tools:textSize="100sp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="30sp"
+                android:layout_width="wrap_content" />
+
+
+            <TabWidget android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@android:id/tabs"
+                android:gravity="fill"/>
+
+            <FrameLayout android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@android:id/tabcontent" >
+
+                <LinearLayout android:id="@+id/tab1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="64dp"></LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="465dp">
+
+                        <TextView android:id="@+id/edad"
+                            android:text="EDAD:"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textSize="30sp"/>
+
+                        <TextView android:id="@+id/ldiagnostico"
+                            android:text="DIAGNÓSTICO:"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textSize="30sp"
+                            android:layout_below="@+id/edad"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginTop="23dp" />
+
+                        <TextView android:id="@+id/labelotros"
+                            android:text="TERAPEUTA:"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textSize="30sp"
+                            android:layout_marginTop="30dp"
+                            android:layout_below="@+id/ldiagnostico"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true" />
+
+                        <TextView android:id="@+id/txt4"
+                            android:text="Otros Comentarios"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textSize="30sp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_alignBaseline="@+id/labelotros"
+                            android:layout_alignBottom="@+id/labelotros"
+                            android:layout_toRightOf="@+id/labelotros"
+                            android:layout_toEndOf="@+id/labelotros" />
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:text="Autismo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textSize="30sp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_alignBaseline="@+id/ldiagnostico"
+                            android:layout_alignBottom="@+id/ldiagnostico"
+                            android:layout_toRightOf="@+id/ldiagnostico"
+                            android:layout_toEndOf="@+id/ldiagnostico" />
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:text="10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textSize="30sp"
+                            android:layout_marginLeft="14dp"
+                            android:layout_marginStart="14dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_toRightOf="@+id/edad"
+                            android:layout_toEndOf="@+id/edad" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <RelativeLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/buttonProgreso"
+                            android:background="@drawable/grafico"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentRight="true"
+                            android:padding="20dp"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Progreso             "
+                            android:textSize="24dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:gravity="center"
+                            />
+
+                        <TextView android:id="@+id/labelultimaterapia"
+                            android:text="Ultima Terapia:                       "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="20"
+                            android:textSize="24sp"
+                            android:layout_below="@+id/labelnivel"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginLeft="39dp"
+                            android:layout_marginStart="39dp"
+                            android:layout_marginTop="26dp" />
+
+                        <TextView android:id="@+id/fechaUltima"
+                            android:text="10.02.2016"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="24sp"
+                            android:layout_below="@+id/labelnivel"
+                            android:layout_alignRight="@+id/labelultimaterapia"
+                            android:layout_marginTop="26dp" />
+
+                        <TextView android:id="@+id/labelnivel"
+                            android:text="Palabras Totales:     "
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="20"
+                            android:textSize="24sp"
+                            android:layout_marginTop="73dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignLeft="@+id/labelultimaterapia"
+                            android:layout_alignStart="@+id/labelultimaterapia" />
+                        <TextView android:id="@+id/palabraTotal"
+                            android:text="    0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="20"
+                            android:textSize="24sp"
+                            android:layout_marginTop="73dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignRight="@+id/labelnivel" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout android:id="@+id/tab3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp">
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                android:adjustViewBounds="true"
+                                app:srcCompat="@drawable/nivel1t"
+                                android:id="@+id/onomatopeya"
+                                android:scaleType="fitXY"
+                                android:layout_width="250dp" />
+
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/nivel2t"
+                                android:id="@+id/fonema"
+                                android:scaleType="fitXY"
+                                android:layout_width="250dp" />
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/nivel3t"
+                                android:id="@+id/silaba"
+                                android:layout_weight="1"
+                                android:scaleType="fitXY"
+                                android:layout_width="250dp" />
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/nivel4t"
+                                android:id="@+id/palabra"
+                                android:layout_weight="1"
+                                android:scaleType="fitXY"
+                                android:layout_width="250dp" />
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/nivel5t"
+                                android:id="@+id/frase"
+                                android:layout_weight="8.39"
+                                android:scaleType="fitXY"
+                                android:layout_width="250dp" />
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/nivel6t"
+                                android:id="@+id/conversacion"
+                                android:layout_weight="1"
+                                android:scaleType="fitXY"
+                                android:layout_width="250dp" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

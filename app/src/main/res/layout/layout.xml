@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Progreso"
+            android:id="@+id/buttonProgreso"
+            android:drawableLeft="@drawable/ic_action_progreso"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:padding="20dp"
+            android:background="@color/colorPrimaryLight" />
+
+        <TextView android:id="@+id/labelultimaterapia"
+            android:text="Ultima Terapia: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:textSize="24sp"
+            android:layout_below="@+id/labelnivel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="26dp" />
+
+        <TextView android:id="@+id/labelnivel"
+            android:text="Palabras Totales: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:textSize="24sp"
+            android:layout_marginTop="73dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignLeft="@+id/labelultimaterapia"
+            android:layout_alignStart="@+id/labelultimaterapia" />
+    </RelativeLayout>
+
+</LinearLayout>

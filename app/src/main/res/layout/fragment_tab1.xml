@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Perfil.Tab1">
+
+    <TextView android:id="@+id/txt4"
+        android:text="Otros Comentarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignBaseline="@+id/labelotros"
+        android:layout_alignBottom="@+id/labelotros"
+        android:layout_toRightOf="@+id/labelotros"
+        android:layout_toEndOf="@+id/labelotros" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:text="Autismo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_alignBaseline="@+id/ldiagnostico"
+        android:layout_alignBottom="@+id/ldiagnostico"
+        android:layout_toRightOf="@+id/ldiagnostico"
+        android:layout_toEndOf="@+id/ldiagnostico" />
+
+    <TextView android:id="@+id/edad"
+        android:text="EDAD:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp"
+        android:layout_alignBaseline="@+id/txt1"
+        android:layout_alignBottom="@+id/txt1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView android:id="@+id/labelotros"
+        android:text="TERAPEUTA:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/ldiagnostico"
+        android:layout_alignLeft="@+id/ldiagnostico"
+        android:layout_alignStart="@+id/ldiagnostico" />
+
+    <TextView android:id="@+id/ldiagnostico"
+        android:text="DIAGNÓSTICO:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/txt1"
+        android:layout_alignLeft="@+id/edad"
+        android:layout_alignStart="@+id/edad" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:text="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="30sp"
+        android:layout_marginTop="76dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/edad"
+        android:layout_toEndOf="@+id/edad" />
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_acciones.F3Acciones_Silencio">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_silencio_len"
+        android:background="@drawable/ac_len"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_silencio_si"
+        android:layout_toEndOf="@+id/btn_silencio_si" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_silencio_si"
+        android:background="@drawable/ac_si"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_Silencio"
+        android:layout_alignStart="@+id/obtn_Silencio" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_silencio_cio"
+        android:background="@drawable/ac_cio"
+        android:layout_width="140dp"
+        android:layout_alignTop="@+id/btn_silencio_len"
+        android:layout_toRightOf="@+id/btn_silencio_len"
+        android:layout_toEndOf="@+id/btn_silencio_len" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Silencio"
+        android:background="@drawable/silencio"
+        android:layout_marginBottom="16dp"
+        android:layout_above="@+id/btn_silencio_len"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

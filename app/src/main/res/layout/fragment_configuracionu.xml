@@ -1,0 +1,71 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        tools:context="com.example.carlos.atlasapp.Fragments.FragmentConfiguracionU">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText android:id="@+id/modificaru_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Nombre" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--  Usuario Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/modificaru_usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Usuario" />
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Password Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/modificaru_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Nueva Contraseña"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Password Re-enter Label -->
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp">
+        <EditText android:id="@+id/modificaru_reEnterPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Repetir Contraseña"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <!-- Signup Button -->
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_modu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Actualizar Información"/>
+
+</LinearLayout>

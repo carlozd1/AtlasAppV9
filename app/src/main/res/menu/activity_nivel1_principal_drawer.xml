@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/notification_clear_all"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/animales"
+            android:icon="@drawable/cat"
+            android:title="Animales" />
+        <item
+            android:id="@+id/acciones"
+            android:icon="@drawable/human_handsup"
+            android:title="Acciones" />
+        <item
+            android:id="@+id/objetos"
+            android:icon="@drawable/phone_classic"
+            android:title="Objetos" />
+        <item
+            android:id="@+id/transporte"
+            android:icon="@drawable/bus"
+            android:title="Transporte" />
+    </group>
+
+        <item android:title="Más">
+        <menu>
+            <item
+                android:id="@+id/comenzarnivel1"
+                android:icon="@drawable/play"
+                android:title="Comenzar todo"/>
+            <item
+                android:id="@+id/pruebanivel1"
+                android:icon="@drawable/alarm"
+                android:title="Realizar test" />
+            <item
+                android:id="@+id/regresa"
+                android:icon="@drawable/arrow_left"
+                android:title="Regresar" />
+        </menu>
+    </item>
+
+</menu>

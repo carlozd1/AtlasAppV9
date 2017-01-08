@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/n_progreso_general"
+            android:icon="@drawable/ic_action_grafica"
+            android:title="Progreso General" />
+
+        <item android:title="Niveles">
+            <menu>
+            <item
+            android:id="@+id/n_progreso_ono"
+            android:icon="@drawable/ic_action_n1"
+            android:title="Onomatopeyas" />
+        <item
+            android:id="@+id/n_progreso_fon"
+            android:icon="@drawable/ic_action_n2"
+            android:title="Fonemas" />
+        <item
+            android:id="@+id/n_progreso_sil"
+            android:icon="@drawable/ic_action_n3"
+            android:title="Sílabas y Palabras" />
+        <item
+            android:id="@+id/n_progreso_pal"
+            android:icon="@drawable/ic_action_n4"
+            android:title="Frases" />
+        <item
+            android:id="@+id/n_progreso_fra"
+            android:icon="@drawable/ic_action_5"
+            android:title="Conversación" />
+        <item
+            android:id="@+id/n_progreso_con"
+            android:icon="@drawable/ic_action_n6"
+            android:title="Fluidez Semántica" />
+            </menu>
+        </item>
+
+    </group>
+
+</menu>

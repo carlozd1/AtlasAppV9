@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_objetos.F2Objetos_Campana">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_campana_na"
+        android:background="@drawable/ac_na"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_campana_pa"
+        android:layout_toEndOf="@+id/btn_campana_pa" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_Campana"
+        android:background="@drawable/campanas"
+        android:layout_above="@+id/btn_campana_cam"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_campana_cam"
+        android:background="@drawable/ac_cam"
+        android:layout_width="140dp"
+        android:layout_marginLeft="259dp"
+        android:layout_marginStart="259dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_campana_pa"
+        android:background="@drawable/ac_pa"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_campana_cam"
+        android:layout_toEndOf="@+id/btn_campana_cam" />
+
+</RelativeLayout>

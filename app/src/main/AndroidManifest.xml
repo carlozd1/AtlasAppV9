@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.carlos.atlasapp">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.CAMERA" />
+    <uses-feature android:name="android.hardware.CAMERA.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="OurWorld"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        .
+        <activity
+            android:name=".Nav.NavInicio"
+            android:label="OurWorld"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searcheable" />
+            />
+        </activity>
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="OurWorld">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login.SignUp"
+            android:label="Registrarse" />
+        <activity
+            android:name=".Nivel1.nivel1_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel1.Onomatopeyas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel1.Nivel1_Onomatopeyas"
+            android:parentActivityName="Nivel1.nivel1_principal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel1.O_acciones"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel1.O_instrumentos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel1.O_objetos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel1.O_transporte"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel3.S_animales"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel3.S_acciones"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel3.S_instrumentos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel3.S_objetos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nivel3.S_transporte"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <provider
+            android:name=".sqlite.MyContentProvider"
+            android:authorities="com.example.carlos.atlasapp"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".Nav.NavProgreso"
+            android:label="Progreso"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Nivel2.nivel2_principal"
+            android:label="Fonemas"
+            android:theme="@style/AppThemeFon" />
+        <activity
+            android:name=".Nivel2.Fonemas"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_fonemas"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".Perfil.PerfilActivity"></activity>
+    </application>
+
+</manifest>

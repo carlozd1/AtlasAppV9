@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carlos.atlasapp.Nivel3.Silabas_acciones.F1Acciones_TocarPuerta">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_puerta_er"
+        android:background="@drawable/ac_er"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btn_puerta_pu"
+        android:layout_toEndOf="@+id/btn_puerta_pu" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_puerta_pu"
+        android:background="@drawable/ac_pu"
+        android:layout_width="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/obtn_TocarPuerta"
+        android:layout_alignStart="@+id/obtn_TocarPuerta" />
+
+    <ImageButton
+        android:layout_height="150dp"
+        android:id="@+id/btn_puerta_ta"
+        android:background="@drawable/ac_ta"
+        android:layout_width="140dp"
+        android:layout_alignTop="@+id/btn_puerta_er"
+        android:layout_toRightOf="@+id/btn_puerta_er"
+        android:layout_toEndOf="@+id/btn_puerta_er" />
+
+    <ImageButton
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:id="@+id/obtn_TocarPuerta"
+        android:background="@drawable/tocarpuerta"
+        android:layout_above="@+id/btn_puerta_er"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+</RelativeLayout>
